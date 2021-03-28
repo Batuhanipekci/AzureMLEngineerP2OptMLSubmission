@@ -25,7 +25,9 @@ At least 10 steps can be defined which are key for completing this project.
  
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+The following screenshots gives further detail on the steps that were explained above:
+
+![DatasetProof](Screenshots/ss001_dataset.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
