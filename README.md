@@ -21,8 +21,9 @@ At least 10 steps can be defined which are key for completing this project.
 - **Stage 7:** An HTTP Post request has been sent via endpoint.py, where a sample data has been provided. The prediction for the data points were received as a JSON object which was sent by the API endpoint for the machine learning model.
 - **Stage 8:** The performance of the API endpoint has been tested using Apache Benchmark. The average requests per second was about 8, implying the average response time being way below the Azure maximum of 60 seconds. The bash command in benchmark.sh has been modified with the key in the header and the URI for the API endpoint.
 - **Stage 9:** The same steps for AutoML has been repeated using Python SDK. The most important difference was the Pipeline object, which can be very flexible and receive many other scripts down the line. The implementation can be traced in aml-pipelines-with-automated-machine-learning-step.ipynb. 
-- **Stage 10:** A pipeline endpoint has been created. The communication with this API has been captured in a video that can be found in https://www.youtube.com/watch?v=xXZodFZjTAY&ab_channel=Batuhan%C4%B0pek%C3%A7i 
+- **Stage 10:** A pipeline endpoint has been created. The communication with this API has been captured in a screencast video that can be found in the Screen Recording section.
  
+It has been a very useful project to operate on Azure ML Studio using two different ways. Many of the basic tools and operations were explored. To improve the project, advanced techniques which decrease computational costs like pipeline processing (parallel runs in batches) could be applied. Another to do might be scaling the project even further using Azure Kubernetes Service rather than Azure Container Instance (as the default choice here). The models can be exported using Open Neural Network Exchange (ONNX) format, which would allow us to run on a variety of platforms and services. Having deployed a good performing Machine Learning model that easily in Azure ML Studio would certainly encourage the developers to focus on building additional application in backend and frontend. That would be for me the best way of expanding this project.
 
 ## Key Steps
 The following screenshots gives further detail on the steps that were explained above:
@@ -70,7 +71,10 @@ The following screenshots gives further detail on the steps that were explained 
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+The Link to the Screencast:
+https://www.youtube.com/watch?v=xXZodFZjTAY&ab_channel=Batuhan%C4%B0pek%C3%A7i 
+
+The screencast demonstrates the working ML model endpoint which was successfully deployed, the pipeline object, the chosen AutoML model, and the communication with the endpoint through a JSON payload.
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+The process of load-test the endpoint Apache Benchmark (Stage 8) was documented.
