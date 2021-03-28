@@ -51,7 +51,7 @@ The following screenshots gives further detail on the steps that were explained 
 ![Benchmark1](Screenshots/ss008_benchmark1.png)
 
 9. Benchmarking the API 2: The console output for the summary. 8.26 requests per second (Stage 8).
-![Benchmark2](Screenshots/ss008_benchmark2.png)
+![Benchmark2](Screenshots/ss009_benchmark2.png)
 
 10. Pipeline Created: The Pipeline run with AutoML Step was initialized through Notebook cells (Stage 9). 
 ![PipelineCreated](Screenshots/ss010_pipelineCreated.png)
@@ -63,10 +63,10 @@ The following screenshots gives further detail on the steps that were explained 
 ![PipelineEndpointCreated](Screenshots/ss011_pipelineEndpoint.png)
 
 13. RunDetails widget: Showing the progress of the Pipeline steps (Stage 9).
-![PipelineEndpointCreated](Screenshots/ss013_jnRunDetails.png)
+![RunDetails](Screenshots/ss013_jnRunDetails.png)
 
 14. Scheduled Run in ML Studio: Scheduled Run with the Completed Status (Stage 9).
-![PipelineEndpointCreated](Screenshots/ss014_scheduledRun.png)
+![Scheduled Run](Screenshots/ss014_scheduledRun.png)
 
 
 ## Screen Recording
