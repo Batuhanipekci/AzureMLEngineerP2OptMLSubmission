@@ -1,9 +1,11 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
-# Your Project Title Here
+# Operationalizing Machine Learning
+Udacity Nanodegree Machine Learning Engineer with Azure, Submission for the 2nd Task.
+Batuhan Ipekci
 
-*TODO:* Write an overview to your project.
+
+This project demonstrates 2 alternative ways of deploying a trained model on Azure Machine Learning Studio. At first, the deployment of an AutoML run has been submitted through the user interface of Azure ML Studio. Later, the same process has been done via Python SDK. Both endpoints of those processes have been checked through an HTTP POST request communicating the sample data through a JSON object. At the end, a well-rounded introduction to all the tools in the Azure ML Studio has been accomplished.
 
 ## Architectural Diagram
 
